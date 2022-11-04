@@ -1,0 +1,216 @@
+#list{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ls{
+    font-style: italic;
+}
+
+#ex1 {
+    background-color: yellow;
+    color: red;
+  }
+#ex2 {
+    font-size: small;
+    color: blue;
+  }
+#h1 {
+    border: 5px solid red;
+  }
+#h2 {
+    border: 4px dotted blue;
+  }
+#h3 {
+    border-left-style: solid;
+    border-left-color: coral;
+  }
+
+#h4 {
+    background-color: coral;
+  }
+  
+#h5{
+    border-style: solid;
+    border-bottom-style: dotted;
+  }
+  #h6 {
+    height: auto;
+    border: 1px solid black;
+  }
+
+#h7{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+
+#h8  {
+    list-style: square inside url("sqpurple.gif");
+  }
+
+#h9 {
+    border: 1px solid red;
+    outline: 5px dotted green;
+  }
+
+#h10 {
+    margin: 20px;
+    border: 1px solid black;
+    background-color: yellow;
+    outline: 4px solid red;
+    outline-offset: 15px;
+  } 
+
+#h11 {
+    text-shadow: 2px 2px #FF0000;
+  }
+
+#h12 {
+    width: 210px;
+    height: 100px;
+    background-color: yellow;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg);
+  }
+
+#h13 {
+    accent-color: rgb(0, 0, 255);
+  }
+
+#h14 {
+    text-indent: 50px;
+  }
+
+#h14 {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }
+
+#h15 {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-color: #ff0000;
+  }
+  #h16{
+    font-weight: bold;
+  }
+
+#h17{
+  font-stretch: normal;
+}
+
+#h18 {
+  text-indent: 30%;
+}
+
+#h19{
+  border: 1px solid red; 
+  padding-bottom: 25px;
+}
+
+#h20 {
+  border: 1px solid red; 
+  padding-right: 150px;
+}
+
+#h21 {
+  border: 1px solid red; 
+  padding-top: 25px;
+}
+
+#h22 {
+  text-decoration: overline;
+}
+
+#h23 {
+  text-decoration: underline;
+  -webkit-text-decoration-color: red; /* Safari */  
+  text-decoration-color: red;
+}
+
+#h24 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+#h25{
+  text-decoration: underline solid red 50%;    
+}
+
+#h26 {
+  text-transform: uppercase;
+}
+
+#h27 {
+  letter-spacing: 3px;
+}
+#h28 {
+  width: 100px;
+  height: 105px;
+  background: red;
+  transition-property: width;
+  transition-duration: 5s;
+}
+
+#h28:hover {
+  width: 205px;
+}
+
+#h29 {
+  width: 140px; 
+  border: 1px solid #000000;
+}
+
+#h29.c {
+  word-break: break-all;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+div {
+  font-family: myFirstFont;
+}
+
+#h30 {
+  border: 1px solid black;
+  width: 20%;
+}
+
+#h31 {
+  border-radius: 50%;
+}
+
+#h32{
+  padding: 30px;
+  border: 1px solid #4CAF50;
+}
+
+#button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#h33{
+  color: #FF0000;
+}
+
+
+  
+  
